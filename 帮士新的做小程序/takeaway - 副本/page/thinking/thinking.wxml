@@ -1,0 +1,54 @@
+<view class="container">
+  <view class="section">
+    <view class="tittle-font" style="font-weight:bold ">士谔书院导师选择系统</view>
+  </view>
+
+  <view class="section">
+    <view class="scroll_view">
+      <scroll-view scroll-x >
+        <view class="scroll">
+          <view  wx:for="{{teacher_pic}}" >
+            <view id="{{index}}" bindtap="changeColor" >
+
+              <view wx:if="{{index==clickId}}">
+                <label class="teacher"  style="background:#f3e844">
+                  <image src="{{item.headImg}}" class="left"/>
+                  <view class="right">
+                    <view class="teacher_name">{{item.teacher_name}}</view>
+                    <view class="book_time">{{item.time}}</view>
+                  </view> 
+                </label>
+                
+              </view> 
+
+              <view wx:else>
+                <label class="teacher"  style="background:white">
+                  <image src="{{item.headImg}}" class="left"/>
+                  <view class="right">
+                    <view class="teacher_name">{{item.teacher_name}}</view>
+                    <view class="book_time">{{item.time}}</view>
+                  </view> 
+                </label>
+              </view> 
+
+            </view>
+          </view> 
+        </view>  
+      </scroll-view>
+    </view>
+
+    
+  
+
+
+    <form bindsubmit="bindFormSubmit" class="form">
+      <textarea placeholder="填一下感想吧~" name="textarea" class="textarea"/>
+      <button class="save" form-type="submit" size="width:180rpx;height:80rpx">
+        <view class="font_save">保存</view>
+      </button>
+    </form>
+
+  </view>
+</view>
+
+

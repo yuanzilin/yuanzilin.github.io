@@ -1,0 +1,126 @@
+.section-big{
+  margin:20rpx;
+  padding: 10rpx;
+  background: #fff;
+}
+/* .section-big .title {
+  background: #fff;
+  position: relative;
+	text-align: center;
+	font-size: 28rpx;
+	margin-bottom: 0rpx;
+} */
+.section-big .title1 {
+	text-align: center;
+	font-size: 32rpx;
+  font-weight: bold;
+	margin-bottom: 10rpx;
+}
+page {
+	height: 100%;
+}
+.container {
+	height: 100%; 
+}
+.left1{
+  width:150rpx;
+  height:150rpx;
+}
+.right1{
+  width:480rpx;
+  padding-left:40rpx;
+  display:flex;
+  flex-direction:row;
+  /* border:1px solid #ccc; */
+}
+.list-item{
+  background: #efefef;
+  width:665rpx;
+  display:flex;
+  flex-direction: row;
+  /* border:1px solid #ccc; */
+  padding:0rpx;
+  margin:15rpx;
+  flex-flow:wrap;
+}
+
+.left2{
+  /* border:1px solid #000; */
+  margin-top:50rpx;
+  margin-left:8rpx;
+  width:142rpx;
+  height:142rpx;
+}
+.right2{
+  width:500rpx;
+  padding-left:10rpx;
+  display:flex;
+  flex-direction:row;
+  /* border:1px solid #ccc; */
+}
+
+.cb{
+  transform: scale(0.4,0.4);
+  margin:0rpx;
+}
+.cb_group{
+  display:flex;
+  transform: scale(0.8,0.8);
+  padding: 0rpx;
+  /* border:1rpx solid #000; */
+  margin-left:0rpx;
+
+}
+.welcome{
+  background: #fff;
+  display: -webkit-flex;
+  width:680rpx;
+  display:flex;
+  flex-direction: row;
+  border:0px solid #fff;
+  padding:10rpx;
+  flex-flow:wrap;
+}
+.welcome_content{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+}
+.welcome_tittle{
+  font-size:40rpx;
+  font-weight: bold;
+  margin-bottom: 5rpx;
+}
+.book_condition{
+  font-size: 25rpx;
+}
+.tittle{
+  /* border:1px solid #000; */
+  display:flex;
+  flex-direction:column;
+  padding-left:0rpx;
+  background:#efefef;
+}
+.time{
+  /* border: 1rpx solid #000; */
+  margin-left:95rpx;
+  margin-bottom: 10rpx;
+  font-weight: bold;
+  font-size:36rpx;
+}
+.name{
+  font-size:38rpx;
+  font-weight:bold;
+  margin-top: 50rpx;
+  margin-bottom:20rpx;
+}
+.desc{
+  font-size:25rpx;
+}
+.right_yuyue{
+  /* border: 1rpx solid #8136ba; */
+  display:flex;
+  flex-direction:column;
+  padding-bottom:0rpx; 
+  margin-left: 0rpx;
+}

@@ -1,0 +1,66 @@
+.section{
+  background: #fff;
+  padding:10rpx;
+  margin-bottom:20rpx;
+  margin-left:20rpx;
+  margin-right:20rpx;
+}
+.tittle-font{
+  text-align: center;
+	font-size: 32rpx;
+  font-weight: bold;
+	margin-bottom: 10rpx;
+}
+.scroll_view{
+ background: #efefef;
+ margin: 20rpx;
+}
+.scroll{
+  display:flex;
+  height:80px;
+  width:500px; 
+  flex-direction:row;
+}
+
+.teacher{
+  background: #fff;
+  border:1rpx solid #000;
+  margin:20rpx;
+  display: flex;
+  flex-direction: row;
+  width:88%;
+}
+.left{
+  margin:15rpx;
+  width: 120rpx;
+  height:120rpx;
+}
+.right{
+  margin-top:20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.teacher_name{
+  font-size:36rpx;
+}
+.book_time{
+  font-size:30rpx;
+}
+.textarea{
+  margin-left:70rpx;
+  width:560rpx;
+  height:650rpx;
+   border:5rpx solid #888;
+}
+
+
+.save{
+  margin-top:50rpx;
+  width:180rpx;
+  height:80rpx;
+  margin-left: 260rpx;
+  margin-bottom: 50rpx;
+}
+.font_save{
+  font-size:30rpx;
+}
