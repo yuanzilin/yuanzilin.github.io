@@ -1,2 +1,2 @@
 # a takeaway demo of wxapp
-微信小程序的外卖demo
+初始版本，只有前端页面，没有后端数据交互
