@@ -1,0 +1,52 @@
+.section{
+  background: #fff;
+  padding:10rpx;
+  margin:20rpx;
+}
+.tittle-font{
+  text-align: center;
+	font-size: 32rpx;
+  font-weight: bold;
+	margin-bottom: 10rpx;
+}
+.detail{
+  background: #efefef;
+  padding-top:40rpx;
+  padding-bottom:50rpx;
+  padding-left:60rpx;
+  padding-right:60rpx;
+  margin-top:10rpx;
+  margin-bottom:20rpx;
+  margin-left:20rpx;
+  margin-right:20rpx;  
+}
+.img{
+  height:230rpx;
+  width:230rpx;
+  margin-left:160rpx;
+}
+.name{
+  font-size:38rpx;
+  font-weight:bold;
+  margin-left:218rpx;
+
+}
+.occupation{
+  margin-left:300rpx;
+  padding:15rpx;
+}
+.Font{
+  font-size:30rpx;
+}
+.research{
+  font-size:28rpx;
+}
+.goto_book{
+  margin-top:50rpx;
+  width:180rpx;
+  height:40rpx;
+  margin-left: 205rpx;
+}
+.font_book{
+  font-size:20rpx;
+}
