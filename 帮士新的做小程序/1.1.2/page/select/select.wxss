@@ -1,0 +1,47 @@
+.section{
+  background: #fff;
+  padding:10rpx;
+  margin:20rpx;
+}
+.tittle-font{
+  text-align: center;
+	font-size: 32rpx;
+  font-weight: bold;
+	margin-bottom: 10rpx;
+}
+.college{
+  margin-top:15rpx;
+  margin-bottom: 45rpx;
+  margin-left:8rpx;
+}
+.teachers{
+  display: -webkit-flex;
+  display: flex;
+  flex-direction:row;
+  flex-warp:wrap;
+  margin-bottom:20rpx;
+}
+.teacher{
+  background: #efefef;
+  display: flex;
+  flex-direction:column;
+  /* width: 200rpx;
+  height:200rpx; */
+  margin: 15rpx;
+}
+.img_view{
+  display:flex;
+  justify-content: center;
+}
+.p{
+  /* border: 1rpx solid #000; */
+  width: 170rpx;
+  height:170rpx;
+  margin-top:10rpx;
+  margin:15rpx;
+}
+.teacher_name{
+  margin-left:50rpx;
+  margin-bottom:5rpx;
+  font-size: 35rpx;
+}

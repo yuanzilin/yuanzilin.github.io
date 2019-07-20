@@ -1,0 +1,33 @@
+.icon{
+  width:65rpx;
+  height: 65rpx;
+}
+.icon_gen{
+  /* padding-left:44rpx; */
+  /* padding-right:20rpx; */
+  /* margin-left:40rpx; */
+  /* margin-right:30rpx; */
+}
+.tabBar{
+  width:100%;
+  position: fixed;
+  bottom:0;
+  padding:10rpx;
+  margin-left:-4rpx;
+  font-size:25rpx;
+  color:#000;
+  background: #fcfcfc;
+  box-shadow: 6rpx 6rpx 6rpx 6rpx #aaa;
+  box-shadow: 6rpx 6rpx 6rpx 6rpx #aaa;
+}
+
+ .tabBar-item{
+  float:left;
+  width:33%;
+  text-align: center;
+  overflow: hidden;
+}
+/*当前字体颜色*/
+.tabBartext{
+  color:#000;
+}
