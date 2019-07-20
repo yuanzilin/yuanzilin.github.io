@@ -1,2 +1,2 @@
 # a takeaway demo of wxapp
-微信小程序的外卖demo
+实现了根据后端数据修改前端checkbox的功能
