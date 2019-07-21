@@ -1,0 +1,15 @@
+/**app.wxss**/
+@import "/template/template.wxss";
+@import "/page/tabbar/tabbar.wxss";
+page {
+	background-color: #efefef;
+}
+
+
+
+ 
+ 
+.button{
+  margin: 130px;
+}
+

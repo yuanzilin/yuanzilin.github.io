@@ -1,0 +1,104 @@
+
+<!-- 这个页面有个大的问题是老师A那部分和预约时间那部分的间距没弄好，老师下面那部分的小字如果太多，预约时间那块也会跟着挪动 -->
+<view class="container">
+
+	<scroll-view scroll-y="true" >
+		<view class=" section-big ">
+			<view class="title1">士谔书院导师选择系统</view>
+		</view>
+
+		<view class="section section-big preferred">
+      <view class="welcome">
+        <image src="/imgs/index/icon_11.jpg" class="left1"/>
+        <view class="right1">
+          <view class="welcome_content">
+            <text class="welcome_tittle">欢迎回来{{name}}</text>
+            <text class="book_condition">你已经完成了{{book_sum}}次导师预约，</text>
+            <text class="book_condition">还有{{book_wait}}次预约等待进行，</text>
+            <text class="book_condition">还需要评价{{book_commit}}次已完成的预约</text>
+          </view>
+        </view>      
+      </view>
+		</view>
+
+		<view class="section section-big special">
+
+			<view class="title1">我的预约</view>
+
+        <view class="list-item" wx:for="{{listDatas}}">
+          <image src="{{item.headImg}}" class="left2"/>
+          <view class="right2">
+            <view class="tittle">
+              <text class="name">{{item.name}}</text>
+              <text class="desc">{{item.content}}</text>
+            </view>
+            <view class="right_yuyue">
+              <view class="time">{{item.time}}</view> 
+              <view>
+
+                <!--=====================================这段就是用来画checkbox的，不用改==================================================================-->
+                <checkbox-group class="cb_group" bindchange="checkboxChange">
+                  <label class="checkbox" wx:for="{{items1}}">
+                  <checkbox value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}</label>
+                </checkbox-group>
+                <checkbox-group class="cb_group" bindchange="checkboxChange">
+                  <label class="checkbox" wx:for="{{items2}}">
+                  <checkbox value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}</label>
+                </checkbox-group>
+                <checkbox-group class="cb_group" bindchange="checkboxChange">
+                  <label class="checkbox" wx:for="{{items3}}">
+                  <checkbox value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}</label>
+                </checkbox-group>  
+                <!--=====================================================================================================================================-->
+
+              </view>
+            </view>  
+          </view>      
+        </view>
+
+      </view>  
+		
+	</scroll-view>
+</view>
+
+
+
+<button bindtap='myRequest' type="primary" class="searBtn">我的</button>
+
+<view class="section section-big special">
+  <view class="title1">我的预约</view>
+
+    <view class="list-item" wx:for="{{testlistDatas}}">
+      <image src="{{item.headImg}}" class="left2"/>
+      <view class="right2">
+        <view class="tittle">
+          <text class="name">{{item.teacher_name}}</text>
+          <text class="desc">{{item.content}}</text>
+        </view>
+        <view class="right_yuyue">
+          <view class="time">{{item.time_tittle}}</view> 
+          <view>
+
+                  <!--=====================================这段就是用来画checkbox的，不用改==================================================================-->
+                  <checkbox-group class="cb_group" bindchange="checkboxChange">
+                    <label class="checkbox" wx:for="{{item.items1}}">
+                    <checkbox  checked="{{item}}" />{{item.value}}</label>
+                  </checkbox-group>
+
+                  <checkbox-group class="cb_group" bindchange="checkboxChange">
+                    <label class="checkbox" wx:for="{{item.items2}}">
+                    <checkbox  checked="{{item}}" />{{item.value}}</label>
+                  </checkbox-group>
+
+                  <checkbox-group class="cb_group" bindchange="checkboxChange">
+                    <label class="checkbox" wx:for="{{item.items3}}">
+                    <checkbox  checked="{{item}}" />{{item.value}}</label>
+                  </checkbox-group>
+                  <!--=====================================================================================================================================-->
+          </view>
+
+        </view>  
+      </view>      
+    </view>
+</view>
+

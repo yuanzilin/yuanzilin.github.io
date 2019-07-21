@@ -1,0 +1,40 @@
+<!-- <import src="../../template/template.wxml"/>
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}"/> -->
+
+<import src="../tabbar/tabbar.wxml"/>
+<template is="tabbar" data="{{tabbar}}"/>
+
+<view class="container">
+	<view class="section">
+    <view class="tittle-font" style="font-weight:bold ">士谔书院导师选择系统</view>
+  </view>
+
+  <view class="section">
+    <view class="detail">
+      
+      <view>
+        <image class="img" src="{{headImg}}"/>
+      </view>
+
+      <view class="name">
+      {{name}}
+      </view>
+
+      <view class="occupation">
+      <view class="Font">{{occupation}}</view>
+      <view class="Font">{{mail}}</view>
+      </view>
+
+      <view class="research">
+      {{intro}}
+      </view>
+
+      <view class="goto_book" >
+        <button  size="width:180rpx;height:40rpx"><view class="font_book">前去预约</view></button>
+      </view>
+
+    </view>
+  </view>
+</view>
+
+
